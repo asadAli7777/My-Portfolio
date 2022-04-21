@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+
+}
+
+/* Hide Scrollbar from Chorome,Safari, Opera */
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    --ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.contaner{
+margin: 0 auto;
+padding: 0 15px;
+max-width: 1280px;
+}
+
+p{
+  line-height: 30px;
+  font-family: 'Courier Prime', monospace;
+}
+h1,h2{
+    font-family: 'Righteous', cursive;
+}
